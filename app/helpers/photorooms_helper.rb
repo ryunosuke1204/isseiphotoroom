@@ -1,0 +1,2 @@
+module PhotoroomsHelper
+end

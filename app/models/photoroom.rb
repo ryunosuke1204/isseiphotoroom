@@ -1,0 +1,2 @@
+class Photoroom < ApplicationRecord
+end

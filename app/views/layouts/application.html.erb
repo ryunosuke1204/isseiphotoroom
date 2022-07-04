@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ISSEI PHOTOROOM</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+<body>
+<header>
+    <header class="header">
+      <div class="inner">
+        <div class="nav">
+          <div class="nav__left">
+        <a href="/">ISSEI PHOTOROOM</a>
+    </div>
+    <nav class="menu">
+      <ul>
+            <li><a href="#">COLLECTION</a></li>
+            <li><a href="#">YEAR</a></li>
+            <li><a href="#">OTHERS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+    <%= yield %>
+  </body>
+</html>

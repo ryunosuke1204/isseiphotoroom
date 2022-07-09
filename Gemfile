@@ -55,7 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'pry-rails'
 gem 'devise'
 gem 'rails_admin', ['>= 3.0.0.rc', '< 4']
-gem 'carrierwave'
 gem 'cloudinary'
 gem 'mini_magick'
 gem 'image_processing', '~> 1.2'

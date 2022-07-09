@@ -25,6 +25,7 @@ class Admin::PhotoroomsController < ApplicationController
   end
 
   def photoroom_params
-    params.require(:photoroom).permit(:text).merge(user_id: current_user.id)
+    params.require(:photoroom).permit(:name,:image).merge(user_id: current_user.id)
   end
+
 end

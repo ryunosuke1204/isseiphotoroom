@@ -35,7 +35,6 @@ ActiveRecord::Schema.define(version: 2022_07_09_074747) do
 
   create_table "photorooms", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name", null: false
-    t.text "image", null: false
     t.bigint "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
